@@ -41,9 +41,8 @@ def login(user):
 @auth_check_dashboard(redirect_to_login=True)
 def index(user):
 	if user:
- 		return redirect(url_for("cards_manager.index"))
+		return redirect(url_for("cards_manager.index"))
 	else:
-		
 		return redirect(url_for("dashboard.login"))
 
 

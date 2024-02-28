@@ -17,7 +17,7 @@ jsonschema = "*"
 requests = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.*"
 
 [scripts]
 init = "bash -c 'export FLASK_APP=caccia_server; export FLASK_ENV=development; flask init-db;'"
