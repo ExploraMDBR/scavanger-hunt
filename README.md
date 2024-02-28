@@ -1,4 +1,4 @@
-# Scavanger Hunt Web App
+# Explora Scavanger Hunt Web App
 A game of Scavanger Hunt implemented in Python Flask, serving an Admin Dashboard for setting up the game and a client for players.
 
 
