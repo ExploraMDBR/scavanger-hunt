@@ -43,7 +43,7 @@ See [this article](https://medium.com/@prithvishetty/deploying-a-python-3-flask-
 
 
 ## Firebase services
-This project uses Firebase for auth services. To set this up correctly, after create a Firebase project and follow these instructions:
+This project uses Firebase for auth services. To set this up correctly,  create a Firebase project and follow these instructions:
 
 - place firebase.json in `instance` folder, rename `FIREBASE_CONF` value in `__init__.py`
 
