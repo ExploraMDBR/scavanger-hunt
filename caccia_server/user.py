@@ -41,7 +41,7 @@ def create_user():
 	username = request.form['username']
 
 	if not username:
-		flash("Ingressa un nome utente")
+		flash("Inserisci un nome utente")
 		return render_template('cards/init.html')
 
 	try:
