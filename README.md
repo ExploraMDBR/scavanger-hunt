@@ -2,7 +2,7 @@
 
 <img width="200" alt="project logo" src="images/logo.png">
 
-[![ExploraBadge](https://img.shields.io/badge/-Explora-eb5c2f)](https://mdbr.it/en/) [![Web](https://img.shields.io/badge/-Web_app-0f4175)](https://mdbr.it/en/)
+[![ExploraBadge](https://img.shields.io/badge/-Explora-eb5c2f)](https://mdbr.it/en/) [![Web](https://img.shields.io/badge/-Web_app-0f4175)](https://en.wikipedia.org/wiki/Web_application)
 
 
 A game of Scavanger Hunt implemented in Python Flask, serving an Admin Dashboard for setting up the game and a client for players.
