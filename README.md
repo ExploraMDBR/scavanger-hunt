@@ -94,4 +94,4 @@ Examples of areas where Scanvenger hunt has been used are:
 
 ### Related Explora's project
 
-- [Whack-a-mole]()
+- [Radio kids]()
