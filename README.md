@@ -82,7 +82,7 @@ This project uses Firebase for auth services. To set this up correctly,  create 
 ## <a name="infos"></a>Project additional infos
 
 ### Project purpose
-Scavenger hunt has been developed as a game to explore archeological and natural areas and to learn interesting facts about them.
+*Scavenger hunt* has been developed as a game to explore archeological and natural areas and to learn interesting facts about them.
 These sites have been previously equipped with multiples QR reading stations, placed on the areas hotspots.
 
 ![infos](images/example.png)
