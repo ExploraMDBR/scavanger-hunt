@@ -75,15 +75,18 @@ See [this article](https://medium.com/@prithvishetty/deploying-a-python-3-flask-
 ## <a name="firebase"></a>Firebase services
 This project uses Firebase for auth services. To set this up correctly,  create a Firebase project and follow these instructions:
 
+After creating a new Firebase project and a Web app inside the project, navigate to the project settings. 
+
 ![instructions01](images/caccia_server01.png)
 
-![instructions02](images/caccia_server02.png)
+Create a file `firebaseConfig.js` in `caccia_server/static` folder. Paste the snippet found in Firebase dashboard "Project settings/General/"
 
 ![instructions03](images/caccia_server03.png)
 
-- place firebase.json in `instance` folder, rename `FIREBASE_CONF` value in `__init__.py`
 
-- place `firebaseConfig.js` in `caccia_server/static` folder
+Generate a private key and move the .json file downloaded in the `instance` folder. Rename `FIREBASE_CONF` value in `__init__.py` to match the path of the file.
+
+![instructions02](images/caccia_server02.png)
 
 ## <a name="infos"></a>Project additional info
 
