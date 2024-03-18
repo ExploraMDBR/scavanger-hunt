@@ -37,7 +37,7 @@ If the answer given by user is correct the platform serves a badge with a hint o
 ## <a name="development"></a>Development
 ```bash
 # Clone repo
-git clone <repo>
+git clone https://github.com/ExploraMDBR/scavanger-hunt.git
 
 # Install pipenv if you don't have it
 pip3 install pipenv
