@@ -69,18 +69,17 @@ pipenv run dev_server_remote
 - Connect with ssh to server and 
 `~/install_caccia_apache.sh`
 
-![instructions01](images/caccia_server01.png)
-
-![instructions02](images/caccia_server02.png)
-
-![instructions03](images/caccia_server03.png)
-
-
 See [this article](https://medium.com/@prithvishetty/deploying-a-python-3-flask-app-into-aws-using-apache2-wsgi-1b26ed29c6c2) for more info. 
 
 
 ## <a name="firebase"></a>Firebase services
 This project uses Firebase for auth services. To set this up correctly,  create a Firebase project and follow these instructions:
+
+![instructions01](images/caccia_server01.png)
+
+![instructions02](images/caccia_server02.png)
+
+![instructions03](images/caccia_server03.png)
 
 - place firebase.json in `instance` folder, rename `FIREBASE_CONF` value in `__init__.py`
 
