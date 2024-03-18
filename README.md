@@ -14,12 +14,12 @@ Tested and running in VPS with Ubuntu Server 18.04 LTS
 - [Development](#development)
 - [Production WSGI Server with Apache](#apache)
 - [Firebase services](#firebase)
-- [Project additional infos](#infos)
+- [Project additional info](#infos)
 
 
 ## <a name="introduction"></a>Introduction
 Scavenger hunt is a web platform for a QR reading based quiz game.
-Through any mobile device camera it can scan different QR codes that start different quizes.
+Through any mobile device camera it can scan different QR codes that start different quizzes.
 For any scanned QR the web platform serves a set of question and possible answers (behaving like radio buttons). 
 If the answer given by user is correct the platform serves a badge with a hint of the position of next QR to scan.
 
@@ -73,13 +73,13 @@ See [this article](https://medium.com/@prithvishetty/deploying-a-python-3-flask-
 
 
 ## <a name="firebase"></a>Firebase services
-This project uses Firebase for auth services. To set this up correctly,  create a Firebase project and follow these instructions:
+This project uses Firebase for auth services. To set this up correctly,  create a Firebase project and follow these instructions:
 
 - place firebase.json in `instance` folder, rename `FIREBASE_CONF` value in `__init__.py`
 
 - place `firebaseConfig.js` in `caccia_server/static` folder
 
-## <a name="infos"></a>Project additional infos
+## <a name="infos"></a>Project additional info
 
 ### Project purpose
 *Scavenger hunt* has been developed as a game to explore archeological and natural areas and to learn interesting facts about them.
@@ -87,11 +87,7 @@ These sites have been previously equipped with multiples QR reading stations, pl
 
 ![infos](images/example.png)
 
-Examples of areas where Scanvenger hunt has been used are:
+Examples of areas where Scavenger hunt has been used are:
 - Villa dei quintili – Roman villa archeological site
 - Explora botanical garden
 - Centrale del latte di Roma – dairy production facility
-
-### Related Explora's project
-
-- [Radio kids]()
