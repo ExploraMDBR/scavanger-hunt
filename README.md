@@ -69,6 +69,13 @@ pipenv run dev_server_remote
 - Connect with ssh to server and 
 `~/install_caccia_apache.sh`
 
+![instructions01](images/caccia_server01.png)
+
+![instructions02](images/caccia_server02.png)
+
+![instructions03](images/caccia_server03.png)
+
+
 See [this article](https://medium.com/@prithvishetty/deploying-a-python-3-flask-app-into-aws-using-apache2-wsgi-1b26ed29c6c2) for more info. 
 
 
